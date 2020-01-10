@@ -10,6 +10,9 @@ exports.diffDays = (startDate, endDate) => {
   const endingDate = new Date(endDate).getTime();
 
   if (startingDate > validMinDate && endingDate < validMaxDate) {
+    if (startDate === endDate) {
+      return "The number of elapsed days are 0 days";
+    }
     const diff = endingDate - startingDate;
     const noOfWorkingDays = Math.floor((diff - 1) / msPerDay);
     return `The number of elapsed days are: ${noOfWorkingDays} days`;
