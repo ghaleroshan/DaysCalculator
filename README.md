@@ -26,9 +26,9 @@ Steps I thought of and executed for solving the get number of full elapsed days:
 
 Run the following commands to setup, given `node` and `npm` is available:
 
-1. git clone git@github.com:ghaleroshan/DaysCalculator.git
-2. cd DaysCalculator
-3. node getDays.js "2/22/1983" "3/2/1983" -> to see a test output
+1. `git clone git@github.com:ghaleroshan/DaysCalculator.git`
+2. `cd DaysCalculator`
+3. `node getDays.js "2/22/1983" "3/2/1983"` -> to see a test output
 
 ## Running tests
 
