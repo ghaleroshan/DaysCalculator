@@ -14,6 +14,6 @@ exports.diffDays = (startDate, endDate) => {
     const noOfWorkingDays = Math.floor((diff - 1) / msPerDay);
     return `The number of elapsed days are: ${noOfWorkingDays} days`;
   } else {
-    return "Please enter Valid Days";
+    return "Please enter valid days";
   }
 };
