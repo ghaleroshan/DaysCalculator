@@ -11,7 +11,7 @@ Calculates the number of full days elapsed between the two sets of start and end
 
 Steps I thought of and executed for solving the get number of full elapsed days:
 
-1. Get start dates and end dates as a parameter. Since, this project needs to be run from the terminal I have used a node native object `process.argv.forEach` that would allow the users to enter these dates from the terminal.
+1. Get start dates and end dates as a parameter. Since, this project needs to be run from the terminal I have used a node native object `process.argv` that would allow the users to enter these dates from the terminal.
 2. Convert these dates in to milliseconds in order get the results in days.
 3. ValidMinDate and ValidMaxDate has been initialized at first, in order to check if the start date and end date falls in between the valid dates.
 4. Also a condition has been passed to check if the start date and end date are the same then, it would simply return 0.
