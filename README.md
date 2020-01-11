@@ -38,11 +38,6 @@ Run the following commands to setup, given `node` and `npm` is available:
    Current coverage is 100%
    ![Alt text](__test__/coverage.png)
 
-## Decisions and tradeoffs
+## Decisions and TradeOffs
 
-1. I have chosen more of a functional
-1. There are places to improve. Still, I would not opt to do them all for a small problem domain like this one. As software engineers we need to find a balance.
-
-## If it was a bigger project
-
-This is a coding challenge and scope is quite small. If it was a bigger real project, doing the following would be better:
+With the limited time in hand, I was able to provide some level of solution to the required problem.
