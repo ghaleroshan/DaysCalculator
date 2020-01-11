@@ -4,7 +4,8 @@
   "description": "",
   "main": "getDays.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:cov":"jest --coverage" 
   },
   "keywords": [],
   "author": "",
@@ -12,5 +13,12 @@
   "dependencies": {},
   "devDependencies": {
     "jest": "^24.9.0"
+  },
+  "jest": {
+    "coverageDirectory": "coverage",
+    "testRegex": ".test.js$",
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": ["/node_modules/"],
+    "coveragePathIgnorePatterns": ["/node_modules/", "__tests__"]
   }
 }

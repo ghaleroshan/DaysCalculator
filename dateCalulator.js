@@ -1,6 +1,8 @@
 const getDays = require("./getDays");
 
-(function run() {
-  console.log(getDays.diffDays());
-  process.exit(0);
+(function run(startDate, endDate) {
+  startDate = process.argv[2] || startDate;
+  endDate = process.argv[3] || endDate;
+  console.log(getDays.diffDays(startDate, endDate));
+  // process.exit(0);
 })();
