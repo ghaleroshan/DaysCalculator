@@ -36,7 +36,7 @@ Run the following commands to setup, given `node` and `npm` is available:
 2. Simply run `npm test` to run all the tests.
 3. Run command `npm run test:cov` to see all the test coverage.
    Current coverage is 100%
-   ![Alt text](relative/path/to/coverage.png?raw=true "Title")
+   ![Alt text](relative/path/to/coverage.png?raw=true "Coverage")
 
 ## Decisions and tradeoffs
 
